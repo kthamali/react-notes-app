@@ -62,8 +62,26 @@ textarea:focus {
   overflow-wrap: break-word;
 }
 
+.note-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dot-icon {
+  cursor: pointer;
+}
+
 .note-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  background-color: lightcoral;
 }
