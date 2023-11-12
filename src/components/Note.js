@@ -8,7 +8,9 @@ const Note = ({ id, text, date, handleDeleteNote }) => {
             <div className='note-header'>
                 <PiDotsThreeCircleFill className='dot-icon'></PiDotsThreeCircleFill>
             </div>
-            <span>{text}</span>
+            <div className='note-content'>
+                <span>{text}</span>
+            </div>
             <div className='note-footer'>
                 <small>{date}</small>
                 <MdDeleteForever 
@@ -16,7 +18,6 @@ const Note = ({ id, text, date, handleDeleteNote }) => {
                 className='delete-icon' 
                 size='1.3em' />
             </div>
-
         </div>
 
     );

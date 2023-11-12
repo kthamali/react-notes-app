@@ -65,7 +65,6 @@ textarea:focus {
 .note-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .dot-icon {
