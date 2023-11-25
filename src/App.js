@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { nanoid } from "nanoid";
 import NotesList from "./components/NotesList";
+import Search from "./components/Search";
 
 
 const App = () => {
@@ -44,13 +45,10 @@ const App = () => {
     setNotes(newNotes);
   }
 
-  const changeColor = (id) => {
-    
-  }
-
-
+  
   return (
     <div className='conntainer'>
+      <Search />
       <NotesList 
         notes={notes} 
         handleAddNote={addNote}

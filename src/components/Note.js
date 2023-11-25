@@ -5,12 +5,10 @@ const Note = ({ id, text, date, handleDeleteNote }) => {
 
     return (
         <div className='note'>
-            <div className='note-header'>
+            {/* <div className='note-header'>
                 <PiDotsThreeCircleFill className='dot-icon'></PiDotsThreeCircleFill>
-            </div>
-            <div className='note-content'>
-                <span>{text}</span>
-            </div>
+            </div> */}
+            <span>{text}</span>
             <div className='note-footer'>
                 <small>{date}</small>
                 <MdDeleteForever 

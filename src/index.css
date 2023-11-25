@@ -84,3 +84,15 @@ textarea:focus {
 .delete-icon:hover {
   background-color: lightcoral;
 }
+
+.search {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 1.5em;
+  border: none;
+}
+
+.search-input input:focus {
+  outline: none !important;
+}
+
